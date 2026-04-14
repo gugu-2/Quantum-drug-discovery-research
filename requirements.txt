@@ -1,0 +1,31 @@
+# Core Qiskit stack
+qiskit>=1.0.0
+qiskit-aer>=0.14.0
+qiskit-nature>=0.7.0
+qiskit-algorithms>=0.3.0
+qiskit-ibm-runtime>=0.20.0
+
+# Quantum chemistry backends
+pyscf>=2.4.0
+openfermion>=1.6.0
+openfermionpyscf>=0.5.0
+
+# PennyLane (alternative / cross-validation)
+pennylane>=0.35.0
+pennylane-qiskit>=0.35.0
+
+# Scientific computing
+numpy>=1.24.0
+scipy>=1.11.0
+matplotlib>=3.7.0
+pandas>=2.0.0
+
+# Molecular handling
+rdkit>=2023.9.1
+pubchempy>=1.0.4
+
+# Utilities
+tqdm>=4.66.0
+rich>=13.0.0
+click>=8.1.0
+python-dotenv>=1.0.0

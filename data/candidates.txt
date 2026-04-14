@@ -1,0 +1,23 @@
+# Drug candidate SMILES library
+# One SMILES string per line. Lines starting with # are ignored.
+# Source: PubChem pharmacologically active fragments
+#
+# Anti-inflammatory fragments
+CC(=O)O
+CC(=O)Nc1ccc(O)cc1
+# Analgesic fragments
+c1ccc(cc1)CC(=O)O
+# Antibiotic fragments
+CC1(C(=O)O)SC2CC(N)C(=O)N2C1
+# Kinase inhibitor scaffolds
+c1ccc2c(c1)ncc(n2)N
+# CNS active fragments
+CN1CCC[C@H]1c2cccnc2
+# Antiviral fragments
+NC(=O)c1ccc(cc1)N
+# Cardiovascular
+CC(C)Cc1ccc(cc1)C(C)C(=O)O
+# Antifungal
+Clc1ccc(cc1)C(O)(Cn2ccnc2)c3ccc(Cl)cc3
+# Antihistamine
+CN(C)CCOC(c1ccccc1)c2ccccc2
